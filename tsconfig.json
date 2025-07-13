@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es2016",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "rootDir": "./src",
+        "baseUrl": "./src",
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "outDir": "./build",
+        "skipLibCheck": true
+    },
+    "include": ["src"],
+    "exclude": ["node_modules"]
+}
