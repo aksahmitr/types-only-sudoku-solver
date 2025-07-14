@@ -129,8 +129,8 @@ export type ModifyGrid<
           V,
           [
               ...T,
-              T["length"] extends Y
-                  ? ModifyRow<A[T["length"]], X, V>
+              T["length"] extends X
+                  ? ModifyRow<A[T["length"]], Y, V>
                   : A[T["length"]],
           ]
       >;
